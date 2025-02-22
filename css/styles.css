@@ -306,7 +306,10 @@ figure {
 
 img,
 svg {
-  vertical-align: middle;
+  width: 240px;  /* Ajusta el tamaño según necesites */
+  height: 240px; /* Asegura que sea un cuadrado */
+  border-radius: 50%;
+  object-fit: cover; /* Para que la imagen se ajuste bien */
 }
 
 table {
