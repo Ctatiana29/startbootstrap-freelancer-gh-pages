@@ -602,17 +602,17 @@ progress {
 }
 
 .img-fluid {
-  width: 210px;  /* Ajustar el tamaño del contenedor */
-  height: 210px;
+  width: 240px;  /* Ajustar el tamaño del contenedor */
+  height: 240px;
   background-color: #ddd4c5; /* Cambia el color de fondo según necesites */
-  display: flex;
+  display: flexboxs;
   justify-content: center;
   align-items: center;
   border-radius: 20px; /* Ajusta para bordes suaves */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efecto de sombra */
 }
 .portfolio-container {
-  display: flex;
+  display: flexbox;
   flex-wrap: wrap;
   justify-content: center; /* Centra los elementos horizontalmente */
   align-items: center; /* Centra los elementos verticalmente */
